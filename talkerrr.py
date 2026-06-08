@@ -24,7 +24,7 @@ def aiprocess(command):
     headers={
     "Authorization": (f"Bearer {OPENROUTER_API_KEY}"),
     "Content-Type": "application/json",
-    "HTTP-Referer": "http://localhost:3000", # Optional. Site URL for rankings on openrouter.ai.
+    "HTTP-Referer": "http://localhost:ffhffff", # Optional. Site URL for rankings on openrouter.ai.
     "X-OpenRouter-Title": "Local Debug Script", # Optional. Site title for rankings on openrouter.ai.
     },
     data=json.dumps({
