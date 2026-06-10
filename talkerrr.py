@@ -3,7 +3,6 @@ import speech_recognition as sr
 import webbrowser
 import musiclibrary
 import requests
-import json
 import pyttsx3 
 from deep_translator import GoogleTranslator
 
